@@ -1,12 +1,106 @@
 .body {
-  background-color: #FBF9F6 !important;
+  background-color: #FBF9F6;
   min-height: 100vh;
 }
 
 
-.card {
-  border: none;
-  color: red;
+.header-left button {
+  background-color: #F3E5CF;
+  border-radius: 10px;
+}
+
+.header-left i {
+  color: #20D489;
+}
+
+.header-left button:hover {
+  background-color: #cfc09d;
+  border-radius: 10px;
+}
+
+.header-left h5 {
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 
+.right-button {
+  border-radius: 10px;
+  transition: 0.6s;
+}
+
+.right-button:hover {
+  background-color: #ffe9c2;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+
+
+.right-notification {
+  background-color: #f5b7c4;
+  color: #F1416C;
+}
+
+.right-notification:hover {
+  background-color: #F1416C;
+  border-radius: 10px;
+  color: white;
+}
+
+.right-notification b {
+  color: #F1416C;
+}
+
+.right-notification b:hover {
+  color: white;
+}
+
+
+.main-layer{
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px #cecece;
+  max-width: 100%;
+  min-height: 20rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+.first-layer-card button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  background-color: #19B674;
+  color: white;
+  border-radius: 10px;
+}
+
+.first-layer-card button:hover {
+  background-color: #127d4f;
+  color: white;
+}
+
+
+.work-icon {
+  background-image: url("../img/work_icon.jpg");
+  background-size: 220px;
+  width: 250px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.text-gray {
+  color: #A4A5B7;
+  
+}
+
+.first-layer-right button{
+  border-radius: 10px;
+}
+
+.first-layer-right button:hover {
+   background-color: #cecece;
+  color: white;
+  border-radius: 10px;
+}

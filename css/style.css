@@ -1,0 +1,12 @@
+.body {
+  background-color: #FBF9F6 !important;
+  min-height: 100vh;
+}
+
+
+.card {
+  border: none;
+  color: red;
+}
+
+

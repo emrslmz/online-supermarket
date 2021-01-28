@@ -1,0 +1,59 @@
+.header {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.header-left button {
+    background-color: #f4e5d2;
+}
+
+.header-left button:hover{
+    background-color: #f0d5ab;
+}
+
+.header-left i {
+    color: #20D489;
+}
+
+.header-left h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+
+.header-right {
+    padding-right: 100px;
+}
+
+.header-right-button:hover {
+    background-color: #F9F2E7;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.header-right-notification {
+    color: #F1416C !important;
+    background-color: #ffe9f3 !important;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.header-right-notification:hover {
+    color: white !important;
+    background-color: #F1416C !important;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header-right-notification span {
+    color: #F1416C;
+}
+
+.header-right-notification span:hover {
+    color: white;
+}
+
+.header-right  i {
+    color: #585858;
+}

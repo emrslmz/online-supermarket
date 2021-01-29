@@ -1,7 +1,12 @@
 .body {
   background-color: #FBF9F6;
   min-height: 100vh;
+  padding-bottom: 100px;
 }
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
 
 
 .text-gold {
@@ -24,10 +29,33 @@
   color: #858691;
 }
 
-.background-gray {
-  background-color: #F5F8FA;
-  border-radius: 5px;
+
+
+.background-green {
+  background-color: #E7F6FF !important;
 }
+
+.background-gold {
+  background-color: #FFF8DD !important;
+}
+
+.background-blue {
+  background-color: #E7F6FF !important;
+}
+
+.background-red {
+  background-color: #FFF3F6 !important;
+}
+
+.background-gray {
+  background-color: #f0f0f0 !important;
+}
+
+
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
 
 .header-left button {
   background-color: #F3E5CF;
@@ -136,57 +164,11 @@
 }
 
 
-.top-authors button {
+.progress-left-icon button {
   margin-top: 10px;
-  background-color: #E7F6FF !important;
   border-radius: 15px;
   width: 60px;
   height: 60px;
-}
-
-/*.top-authors b {*/
-/*  color: black;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.top-authors b:hover {*/
-/*  color: #35D489;*/
-/*}*/
-
-.popular-authors button {
-  margin-top: 10px;
-  background-color: #FFF8DD !important;
-  border-radius: 15px;
-  width: 60px;
-  height: 60px;
-}
-
-.new-users button {
-  margin-top: 10px;
-  background-color: #E7F6FF !important;
-  border-radius: 15px;
-  width: 60px;
-  height: 60px;
-}
-
-.weekly-bestsellers button {
-  margin-top: 10px;
-  background-color: #FFF3F6 !important;
-  border-radius: 15px;
-  width: 60px;
-  height: 60px;
-}
-
-.progress-bar-area button {
-  background-color: #e1e1e1;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-}
-
-.progress-bar-area button i:hover {
-  color: #2DD690;
-
 }
 
 .progress-bar-area button {
@@ -214,11 +196,33 @@
   transition: 0.5s;
 }
 
-
 .second-layer-left-middle-right {
   border-right: none;
   border-top: none;
   border-bottom: none;
-  border-left: 2px solid #e9e9e9;
-  height: 100%;
+  border-left: 2px solid #e9e9e9 ;
+}
+
+.second-layer-left-middle-right button {
+  background-color: #F5F8FA;
+}
+
+
+.peoples-achievement-layer button {
+  background-color: #f0f0f0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.peoples-achievement-layer button i:hover {
+  color: #2DD690;
+}
+
+
+.achievement-area button {
+  margin-top: 10px;
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
 }

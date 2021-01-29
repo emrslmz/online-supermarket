@@ -57,11 +57,11 @@
 
 
 .main-layer{
-  margin-top: 30px;
   background-color: white;
   box-shadow: 0 0 10px #cecece;
   max-width: 100%;
-  min-height: 20rem;
+  min-height: 24rem;
+  margin: 30px 0 0 0;
   border-radius: 10px;
   display: inline-block;
 }
@@ -91,7 +91,7 @@
 }
 
 .text-gray {
-  color: #A4A5B7;
+  color: #858691;
   
 }
 
@@ -103,4 +103,36 @@
    background-color: #cecece;
   color: white;
   border-radius: 10px;
+}
+
+
+.top-authors button {
+  margin-top: 10px;
+  background-color: #E7F6FF !important;
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.top-authors b {
+  color: black;
+  cursor: pointer;
+}
+
+.top-authors b:hover {
+  color: #35D489;
+}
+
+
+
+.progress-bar-area button {
+  background-color: #e1e1e1;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.progress-bar-area button i:hover {
+  color: #2DD690;
+
 }

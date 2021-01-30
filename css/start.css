@@ -127,7 +127,7 @@
 .quick-start-box {
     background-color: #F6F1FC;
     min-width: 155px;
-    height: 270px;
+    height: 310px;
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -135,9 +135,19 @@
 .quick-start-box:hover {
     background-color: #E6D8F7;
     min-width: 155px;
-    height: 270px;
+    height: 310px;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 /*Header Right Label Area Styling*/
+
+
+.quick-start-box-img {
+    background-image: url('../img/iconstartpage.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}

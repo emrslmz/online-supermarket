@@ -1,7 +1,6 @@
 .body {
   background-color: #FBF9F6;
   min-height: 100vh;
-  padding-bottom: 100px;
 }
 
 
@@ -51,7 +50,7 @@
 }
 
 .text-gray {
-  color: #858691;
+  color: #A7A8B7;
 }
 
 
@@ -267,4 +266,41 @@
   font-weight: bold;
   color: #2DD690;
   transition: 0.7s;
+}
+
+.milestone {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.milestone-top button {
+  border-radius: 10px;
+}
+
+.milestone-top button:hover {
+  background-color: #E4FFF4;
+  border-radius: 10px;
+}
+
+
+.milestone-right-label-left {
+  background-color: #F5F8FA;
+  border-radius: 10px 30px 30px 10px;
+  margin: 10px;
+  height: 70px;
+  width: 230px;
+}
+
+.footer h6 {
+  color: #7a7b7c;
+  transition: 0.6s;
+  padding: 0 5px 0 5px;
+}
+
+
+.footer h6:hover {
+  color: #2DD690;
+  transition: 0.6s;
+  cursor: pointer;
 }

@@ -1,0 +1,28 @@
+
+
+
+.search-top {
+    margin: 50px;
+}
+
+.search-top button {
+    background-color: #91fccd;
+    color: #19B674;
+    border-radius: 10px;
+}
+
+.search-top button:hover {
+    background-color: #2DD690;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.search-area input {
+    color: #C3C6D1;
+    border: none;
+    width: 600px;
+    height: 100px;
+    font-size: 60px;
+    
+}

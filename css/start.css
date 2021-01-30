@@ -21,131 +21,123 @@
 }
 
 
+/*Header Right Label Area Styling*/
+
 .security-box {
     background-color: #E7F6FF;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .security-box:hover {
     background-color: #C8EBFF;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .demo-box {
     background-color: #FFF3F6;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .demo-box:hover {
     background-color: #FFD4DF;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .try-now-box {
     background-color: #FFF8DD;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .try-now-box:hover {
     background-color: #FFF2BE;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .payment-methods-box {
     background-color: #C5FFE8;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
-    width: 100%;
+    margin: 10px;
+    min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .payment-methods-box:hover {
     background-color: #91fccd;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
-    width: 100%;
+    margin: 10px;
+    min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
+
 .support-box {
     background-color: #FFF8DD;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .support-box:hover {
     background-color: #FFF2BE;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 
 .installation-box {
     background-color: #E7F6FF;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .installation-box:hover {
     background-color: #C8EBFF;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
     min-height: 125px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
+
 .quick-start-box {
     background-color: #F6F1FC;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
-    height: 300px;
+    height: 270px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .quick-start-box:hover {
     background-color: #E6D8F7;
-    border-radius: 20px;
-    margin: 0 10px 10px 10px;
     min-width: 155px;
-    height: 300px;
+    height: 270px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
-
+/*Header Right Label Area Styling*/

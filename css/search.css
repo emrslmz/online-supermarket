@@ -1,5 +1,5 @@
 .search-area {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -30,6 +30,10 @@
     font-size: 56px;
 }
 
+.search-input input:hover {
+    border: none;
+}
+
 .middle-top h5 {
     padding-top: 20px;
     font-weight: bold;
@@ -37,33 +41,72 @@
 
 
 .middle-first-box {
-   background-color: #F1416C;
+    background-image: url("../img/img-1.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position:center;
     border-radius: 15px;
     min-width: 155px;
     min-height: 125px;
+    transition: 0.5s;
+}
+
+.middle-first-box:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .middle-second-box {
-    background-color: #19B674;
+    background-image: url("../img/img-13.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position:center;
     border-radius: 15px;
     min-width: 155px;
     min-height: 125px;
+    transition: 0.5s;
+}
+
+.middle-second-box:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .middle-long-box {
-    background-color: #00A3FF;
+    background-image: url("../img/img-14.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
     border-radius: 15px;
     min-width: 155px;
     min-height: 270px;
+    transition: 0.5s;
+}
+
+.middle-long-box:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .middle-big-box {
-    background-color: #7a7b7c;
+    background-image: url("../img/img-17.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
     border-radius: 15px;
     min-width: 155px;
     min-height: 270px;
+    transition: 0.5s;
 }
 
+.middle-big-box:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 /****************************************/
 /*ACHIEVEMENT AREA*/

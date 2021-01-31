@@ -92,7 +92,8 @@
     padding: 40px 0 40px 0;
 }
 
-
+/****************************************/
+/*APPLE CHECKBOX STYLE */
 input.apple-switch {
     position: relative;
     appearance: none; outline: none;
@@ -124,16 +125,17 @@ input.apple-switch:checked:after {
     box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
 }
 
+/*APPLE CHECKBOX STYLE */
+/****************************************/
+
 .custom-account-hr {
     width: 80%;
     background-color: #F4F6F8;
 }
-
-
+ /****************************************/
+/*GREEN CHECKBOX */
 
 .checkbox-input {
-    font-weight: bold;
-    display: block;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
@@ -190,4 +192,13 @@ input.apple-switch:checked:after {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+/*GREEN CHECKBOX */
+/****************************************/
+
+@media only screen and (min-width: 400px) {
+    .setting-area-top {
+        padding-left: 200px;
+    }
 }

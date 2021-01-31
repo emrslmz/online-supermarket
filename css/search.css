@@ -28,10 +28,12 @@
     max-width: 700px;
     height: 100px;
     font-size: 56px;
+    outline: 0;
 }
 
 .search-input input:hover {
     border: none;
+    outline: 0;
 }
 
 .middle-top h5 {
@@ -42,7 +44,7 @@
 
 .middle-first-box {
     background-image: url("../img/img-1.jpg");
-    background-size: 200px;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position:center;
     border-radius: 15px;
@@ -59,7 +61,7 @@
 
 .middle-second-box {
     background-image: url("../img/img-13.jpg");
-    background-size: 200px;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position:center;
     border-radius: 15px;
@@ -137,9 +139,6 @@
     transition: 0.7s;
 }
 
-
-
-
 .peoples-achievement-layer button {
     background-color: #f0f0f0;
     width: 40px;
@@ -150,6 +149,13 @@
 .peoples-achievement-layer button i:hover {
     color: #2DD690;
 }
+
+.achievement-area-top {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
 
 
 

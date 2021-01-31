@@ -202,3 +202,31 @@ input.apple-switch:checked:after {
         padding-left: 200px;
     }
 }
+
+
+
+.save-changes-account-button button {
+    border-radius: 10px;
+    background-color: #20D489;
+    color: white;
+    font-weight: bold;
+}
+
+.save-changes-account-button button:hover {
+    background-color: #28ffa7;
+    font-weight: bold;
+    color: white;
+}
+
+.cancel-account-button button {
+    border-radius: 10px;
+    background-color: #e4fff4;
+    color: #20D489;
+    font-weight: bold;
+}
+
+.cancel-account-button button:hover {
+    background-color: #d8f4ea;
+    font-weight: bold;
+    color: #20D489;
+}

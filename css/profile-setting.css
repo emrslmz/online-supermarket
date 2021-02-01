@@ -197,7 +197,7 @@ input.apple-switch:checked:after {
 /*GREEN CHECKBOX */
 /****************************************/
 
-@media only screen and (min-width: 400px) {
+@media only screen and (width: 400px) {
     .setting-area-top {
         padding-left: 200px;
     }
